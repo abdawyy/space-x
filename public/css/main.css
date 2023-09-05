@@ -1,0 +1,152 @@
+.navMain{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(255, 255, 255, 0.2);
+
+  
+    
+}
+
+nav .navMain ul li a{
+    color: white;
+}
+
+.Home{
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin-top: 250px;
+    color:white;
+}
+.container h1{
+    font-size:128px; margin: 0px;
+}
+.circle{
+    background-color: white;
+    color: black;
+    border-radius: 180px;
+    width: 320px;
+    height: 320px;
+    transition: all 1s ease;
+   
+    
+}
+.circle:hover{
+    box-shadow: 0px 0px 20px 0px;
+    cursor: pointer;
+
+}
+.circle p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+/* DEstination page */
+.Destination{
+    background: url(../assets/destination/background-destination-desktop.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+button{
+    border: 0px;
+    padding: 10px;
+    color:white;
+    background-color: transparent;
+    
+
+}
+.activ{
+    border-bottom: 1px solid white !important;
+    color: white !important;
+}
+/* Crew */
+.crew{
+    background: url(../assets/crew/background-crew-desktop.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.crew img{
+    margin-top: 20px;
+}
+.crew .cont{
+    
+}
+.pepimg{
+    width: 40%;
+}
+.Space{
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.butns{
+    margin-left: 0px;
+    
+}
+.butns .bt{
+    background-color: rgb(131, 131, 131);
+    margin: 15px;
+    border-radius: 90px;
+}
+.card-content{
+    margin-left: 00px;
+}
+.activ-btn{
+    background-color: rgb(255, 255, 255) !important;
+}
+/* techonolgy*/
+.technology{
+    background: url(../assets/technology/background-technology-desktop.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.technology button{
+    
+    border: 1px solid white;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    border-radius: 90px;
+    font-weight: bold;
+    
+}
+.technology button:hover{
+    background-color: white;
+    color: black;
+}
+.technology button{
+    
+}
+.technology h3{
+    margin: 60px;
+}
+.active-tech{
+    border: 1px solid white !important;
+    color: rgb(0, 0, 0) !important;
+    background: white;
+}
+@media screen and (max-width: 540px) {
+    .circle {
+      margin: auto;
+    }
+    .container{
+        margin-top: 10px;
+    }
+    nav{
+        background-color: gray;
+        opacity: 0.5;
+    }
+   
+  }
+
+
+

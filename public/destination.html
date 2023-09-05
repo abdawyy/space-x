@@ -1,0 +1,79 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </header>
+    <body class="Destination">
+        
+        <nav class=" navbar d-flex justify-content-between navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./assets/shared/logo.svg"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button></div>
+              <div class=" collapse navbar-collapse w-100 p-3 navMain" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="index.html">00 Home</a>
+                  </li>
+                  <li class="nav-item mx-3 ">
+                    <a class="nav-link" href="destination.html"> 01 Destination</a>
+                  </li>
+                  <li class="nav-item  mx-3">
+                    <a class="nav-link" href="crew.html">02 Crew</a>
+                  </li>
+                  <li class="nav-item  mx-3">
+                    <a class="nav-link" href="technology.html">03 technology</a>
+                  </li>
+                 
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            
+          <div class="d-flex justify-content-center flex-wrap" id="scroller">
+
+            <div class="img col-lg-6 col-sm-12">
+                <h4 class="mt-5 p-5 col-sm-12" >01 PICK YOUR DISTINATION</h4>
+                <img id="planet-image" src="./assets/destination/image-mars.png" width="400px" height="400px" class="">
+            </div>
+            <div class="content mt-5 p-5 col-lg-4 col-sm-12">
+                <div class="buttons" id="buttons">
+                    <button value="mars" id="mars"    class="button"  onclick="mars()" >Mars</button>
+                    <button value="moon" id="moon"    class="button"  onclick="moon()" >Moon</button>
+                    <button value="europa"id="europa" class="button" onclick="europa()" >Europa</button>
+                    <button value="titan" id="titan"  class="button"                onclick="titan()" >Titan</button>
+                </div>
+                <h1 id="name-of-planet" class="mt-2"> MARS</h1>
+                <p id="contant-of-planet"> 
+                Mars Europa Titan Mars Don’t forget to pack your hiking boots.
+                You’ll need them to tackle Olympus Mons, the tallest planetary
+                mountain in our solar system. It’s two and a 
+                half times the size of Everest!</p>
+                <hr>
+                <div class="d-flex">
+                  <div class="row">
+                    <p>AVG. Distance</p>
+                    <h5 id="Distance"> 225 milion Km</h5>
+                  </div>
+                  <div class="row">
+                    <p>EsT. Travel time</p>
+                    <h5 id="time">9 months</h5>
+                  </div>
+                </div>
+
+            </div>
+
+          </div>
+          <script src="/js/main.js"></script>
+          <script src="./js/bootstrap.bundle.js"></script>
+
+</html>
